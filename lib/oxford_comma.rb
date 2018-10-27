@@ -5,7 +5,7 @@ elsif array.size == 3 then return "#{array[0]}, #{array[1]}, and #{array[2]}"
 else
       last_word = array.pop
       new_array = array.join(", ")
-      new_array << ",and #{last_word}"
+      new_array << ", and #{last_word}"
       return new_array
     end
 end
