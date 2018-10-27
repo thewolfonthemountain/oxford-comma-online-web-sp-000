@@ -6,4 +6,5 @@ else
       new_array = array.join(", ")
       new_array << "and #{last_word}"
       return new_array
+    end
 end
